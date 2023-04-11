@@ -1,0 +1,72 @@
+					<=======Documentation========>
+
+    Add a form for users to input tasks
+
+
+    Create a list to display tasks
+
+    Add the ability to mark tasks as complete
+
+    Include a delete button for removing completed tasks
+
+    Add the ability to edit tasks
+
+    Implement local storage to save tasks even after the user closes the app
+
+    Include a search bar to filter tasks
+
+    Add a confirmation message when the user deletes a task
+
+    Include a feature to sort tasks by date or priority
+
+    Use CSS to style the app and make it visually appealing.
+
+These are some basic features you can implement in your to-do list app.
+As you become more comfortable with JavaScript, you can add more advanced 
+features such as user authentication, reminders, and notifications.
+
+
+ 						<========color pallet========>
+    Background color: #F8F8F8
+    Input form: #D3E3FC
+    Task list: #F5F5F5
+    Completed tasks: #B6E5B6
+    Delete button: #FF5A5F
+    Edit button: #FFA500
+
+Of course, these are just suggestions and you can choose any colors that you 
+feel best suit your app and your personal preferences. Additionally, 
+it's important to ensure that the contrast between the background color and the 
+text is high enough to maintain readability, so you may need to adjust the colors 
+slightly to achieve this.
+
+#4E6E81
+#F9DBBB
+#FF0303
+#2E3840
+
+
+
+//    let newLI = document.createElement('li');
+//    newLI.className = "list-item";
+//    let newTask  = document.createElement('div');
+//    newTask.className = "task-item";
+//    newTask.appendChild(newDelBtn);
+//    newTask.appendChild(newP);
+//    newTask.appendChild(completeTask);
+//    newTask.appendChild(editTask);
+//    let completeTask = document.createElement('button');
+//    completeTask.className = ('completed-task');
+//    let completeTaskIcon = document.createElement('i');
+//    completeTask.className = "fa-solid fa-check";
+//    let newP = document.createElement('p');
+//    newP.textContent = inputVal;
+//    ulElement.appendChild(newLI);
+//    let newDelBtn = document.createElement('button');
+//    let delIcon = document.createElement('i');
+//    newDelBtn.appendChild(delIcon);
+//    delIcon.className = 'fa-solid fa-trash delete-task btn';
+//    newLI.appendChild(newDelBtn);
+//    newLI.appendChild(newP);
+//    newLI.classList.add('task-item');
+//    input.value = "";
